@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(360deg, #5f2c82, #49a09d);
+    }
+
+    main section#login {
+        width: 75vw;
+    }
+
+    main div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    main div#formulario {
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+
+    main input#submitEntrar {
+        margin-top: 60px;
+    }
+
+    main div#formulario h1 {
+        padding: 10px 0px 20px 0px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    body {
+        background-image: linear-gradient(360deg, #5f2c82, #49a09d);
+    }
+
+    main section#login {
+        width: 80vw;
+    }
+
+    main div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    main div#formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    main input#submitEntrar {
+        margin-top: 60px;
+    }
+
+    main div#formulario h1 {
+        padding: 10px 0px 20px 0px;
+    }
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 1280px) {
+    body {
+        background-image: linear-gradient(360deg, #5f2c82, #49a09d);
+    }
+
+    main section#login {
+        width: 85vw;
+    }
+
+    main div#imagem {
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+
+    main div#formulario {
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+
+    main input#submitEntrar {
+        margin-top: 60px;
+    }
+
+    main div#formulario h1 {
+        padding: 10px 0px 20px 0px;
+    }
+}
