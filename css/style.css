@@ -86,12 +86,11 @@ main div.campo {
 
 main div.campo input {
     padding: 0px 5px;
-    top: 50%;
     height: 30px;
     width: 80%;
     border-radius: 100px;
     border: none;
-    transform: translate(5%, -22%);
+    transform: translate(5%, -22.5%);
 }
 
 main div.campo label {
